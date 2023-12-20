@@ -1,0 +1,63 @@
+body,
+html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrap {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.block-wrap {
+  flex-grow: 1;
+}
+
+.block {
+  display: block;
+  width: 60%;
+  aspect-ratio: 1 / 1;
+  border: 1px solid;
+  margin: 0 auto;
+}
+.output {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.button {
+  display: block;
+  margin: 0 5px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  border: 1px solid red;
+}
+.box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#canvas {
+  display: none;
+}
