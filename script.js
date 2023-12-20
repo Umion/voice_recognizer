@@ -1,9 +1,11 @@
 (() => {
   // SpeechRecognition start
-  var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
-  var SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList;
+  var SpeechRecognition =
+    window.SpeechRecognition || window.webkitSpeechRecognition;
+  var SpeechGrammarList =
+    window.SpeechGrammarList || window.webkitSpeechGrammarList;
   var SpeechRecognitionEvent =
-    SpeechRecognitionEvent || webkitSpeechRecognitionEvent;
+    window.SpeechRecognitionEvent || window.webkitSpeechRecognitionEvent;
 
   var recordBtn = document.querySelector(".button.test");
 
