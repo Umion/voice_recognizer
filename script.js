@@ -9,7 +9,7 @@
 
   var recordBtn = document.querySelector(".button.test");
 
-  const words = ["selfie", "photo", "picture"];
+  const words = ["写真", "自分撮り"];
 
   var recognition = new SpeechRecognition();
   if (SpeechGrammarList) {
@@ -22,7 +22,7 @@
     recognition.grammars = speechRecognitionList;
   }
   recognition.continuous = false;
-  recognition.lang = "en-US";
+  recognition.lang = "ja-JP";
   recognition.interimResults = false;
   recognition.maxAlternatives = 1;
 
